@@ -68,8 +68,8 @@ function PlanesList({ items }) {
       //     gap: 32,
       //     outline: "1px solid red",
       //   }}
-      // className="planesList"
-      className={css.planesList}
+      className="planesList"
+      // className={css.planesList}
     >
       {items.map((item) => (
         <li
@@ -86,11 +86,11 @@ function PlanesList({ items }) {
           //     outline: "1px solid grey",
           //   }}
           // className="planesItem last current"
-          // className={getBgColorVanillaCSS(item.info.year)}
+          className={getBgColorVanillaCSS(item.info.year)}
           // className={css.planesItem}
           // className={css.last}
           // className={css.current}
-          className={css[getBgColorCSSModule(item.info.year)]}
+          // className={css[getBgColorCSSModule(item.info.year)]}
           key={item.id}
         >
           <PlaneItem
