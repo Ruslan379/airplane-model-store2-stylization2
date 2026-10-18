@@ -17,6 +17,7 @@ function Section({ title, children }) {
           // className={css.title }
           // className={`${css.title} ${css.lugrasimoBold} `}
           // className={css.titleLugrasimoBold}
+          // className
         >
           {title}
         </h2>
