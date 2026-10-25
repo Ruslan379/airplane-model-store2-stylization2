@@ -13,10 +13,10 @@ function Section({ title, children }) {
           //   textAlign: "center",
           //   color: "darkred",
           // }}
-          className="title"
+          // className="title"
           // className={css.title }
           // className={`${css.title} ${css.lugrasimoBold} `}
-          // className={css.titleLugrasimoBold}
+          className={css.titleLugrasimoBold}
           // className
         >
           {title}
