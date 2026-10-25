@@ -17,8 +17,8 @@ function Section({ title, children }) {
           // }}
           // className="title"
           // className={css.title }
-          className={`${css.title} ${css.lugrasimoBold} `}
-          // className={css.titleLugrasimoBold}
+          // className={`${css.title} ${css.lugrasimoBold} `}
+          className={css.titleLugrasimoBold}
           // className
         >
           {title}

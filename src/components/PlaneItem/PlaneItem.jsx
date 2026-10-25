@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";''
+import PropTypes from "prop-types"; ''
 import defaultImage from "./default.jpg"; //! Дефолтне зображення
 // import './PlaneItem.css'
 //! Бібліотека react-icons
@@ -45,7 +45,7 @@ import { iconSize } from "@/constants";
 console.log("iconSize:", iconSize);
 
 // import {getManufacturingYears} from "@/utils/formatDateDuration.js"
-import {getManufacturingYears} from "@/utils"
+import { getManufacturingYears } from "@/utils"
 
 import css from "./PlaneItem.module.css";
 
@@ -109,10 +109,10 @@ export default function PlaneItem({
         {nameBrief}
       </h3>
       {/* <ImAirplane
-       size={59}
-       color="red"
-       style={{ color: "blue" }} 
-       className={css.ImAirplane}
+        size={59}
+        color="red"
+        style={{ color: "blue" }}
+        className={css.ImAirplane}
       /> */}
       <img src={urlMain} alt={nameBrief} />
       <p
@@ -155,7 +155,7 @@ export default function PlaneItem({
         // className="textField"
         className={css.textField}
       >
-        <TbClockHour4Filled size={iconSize.md} className={css.icon} /> Тривалість виробництва (в роках): <span className={css.textFieldValue}>{getManufacturingYears(startData,endData)}</span>
+        <TbClockHour4Filled size={iconSize.md} className={css.icon} /> Тривалість виробництва (в роках): <span className={css.textFieldValue}>{getManufacturingYears(startData, endData)}</span>
       </p>
       <p
         // className="textField"
@@ -196,7 +196,7 @@ export default function PlaneItem({
             key={index}
             src={image}
             alt={nameBrief}
-            // width="200"
+          // width="200"
           />
         ))}
       </div>
