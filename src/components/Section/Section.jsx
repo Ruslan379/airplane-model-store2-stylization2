@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 // import './Section.css'
 import css from "./Section.module.css"; //! CSS-модулі
+console.log("css", css);
+
 
 function Section({ title, children }) {
   return (
@@ -15,8 +17,8 @@ function Section({ title, children }) {
           // }}
           // className="title"
           // className={css.title }
-          // className={`${css.title} ${css.lugrasimoBold} `}
-          className={css.titleLugrasimoBold}
+          className={`${css.title} ${css.lugrasimoBold} `}
+          // className={css.titleLugrasimoBold}
           // className
         >
           {title}
