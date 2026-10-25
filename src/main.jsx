@@ -16,7 +16,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter basename="/airplane-model-store2-stylization2">
       <App />
-     </BrowserRouter>
+    </BrowserRouter>
   </StrictMode>,
 );
 
